@@ -9,7 +9,7 @@ metadata:
     pipelinesascode.tekton.dev/on-event: '[push]'
     pipelinesascode.tekton.dev/on-target-branch: '[main]'
   creationTimestamp: null
-  labels: #comment
+  labels: 
     appstudio.openshift.io/application: partner-catalog-build
     appstudio.openshift.io/component: partner-catalog-build-uupm
     pipelines.appstudio.openshift.io/type: build
